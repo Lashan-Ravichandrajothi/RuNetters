@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ru Netters</title>
+    <link rel="icon" href="./Images/Logo.jpeg">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            })
+        })
+    </script>
+</head>
+<body>
+    <nav>
+        <label class="logo">Ru netters</label>
+        <ul>
+            <li><a class="active" href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./players.html">Players</a></li>
+        </ul>
+        <label id="icon">
+            <i class="fa fa-bars"></i>
+        </label>
+    </nav>
+    <section id="banner">
+        <div class="container">
+            <p class="text-para">Founded in Kandy by Ruvini Yatigammana, Ru Netters aims to provide equal opportunity for netball players to compete at provincial and national levels, enhancing their individual skills. Their vision is to empower sportswomen both on and off the court, making them well-rounded individuals.</p>
+            <!-- <button class="btn1"><a href="./learn.html" class="text">Coaching Plan</a></button> -->
+        </div>
+    </section>
+    <!-- link Js -->
+    <script src="./app.js"></script>
+</body>
+</html>
